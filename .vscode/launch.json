@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "port": 9222,
+            "sourceMaps": false,
+            "trace": "verbose",
+            "smartStep": true,
+            "runtimeArgs": ["--no-first-run", "--no-default-browser-check", "--user-data-dir=${workspaceFolder}/.vscode/chrome"]
+        }
+    ]
+}
